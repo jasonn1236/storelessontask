@@ -1,0 +1,37 @@
+/* Create container to display main content */
+.container {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin: auto;
+    width: 50%;
+    height: 500px;
+    
+}
+
+#addtoCartBtn {
+    background-color: #557dcf;
+    border: 1px solid #557dcf;
+    color: white;
+    height: 30px;
+ 
+    margin: auto;
+    /* width: 50%; */
+    bottom: 50px;
+    width: 50px;
+   
+    font-size: 12px;
+  }
+  
+/* Create border around each subject */
+.subject {
+    border: 2px solid lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-right: 50px;
+}
